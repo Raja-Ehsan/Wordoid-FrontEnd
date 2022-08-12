@@ -1,0 +1,16 @@
+.separation{
+    border: 1x solid grey;
+    background-color: grey;
+    margin: 15px;
+}
+.page-sizing{
+    height: 100vh;
+}
+.empty{
+    display:flex;
+    color:grey;
+    font-size:30px;
+    justify-content:Center;
+    align-items:center;
+    height:40vh
+}

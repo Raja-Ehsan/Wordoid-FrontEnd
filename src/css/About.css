@@ -1,0 +1,25 @@
+.about-container {
+    margin-top: 140px;
+}
+.about-info-container {
+    padding: 25px;
+    background-color: rgb(240, 240, 240);
+    margin: 3vw;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .about-container {
+        margin-top: 120px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .about-container {
+        margin-top: 70px;
+    }
+
+}

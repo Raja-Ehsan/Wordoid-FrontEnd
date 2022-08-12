@@ -1,0 +1,44 @@
+.profile-container {
+    padding: 25px;
+    background-color: rgb(240, 240, 240);
+    margin: 3vw;
+    border-radius: 10px;
+}
+.profile-container>h2 {
+    color: rgb(69, 69, 69);
+    text-shadow: 1px 1px 1px black;
+}
+.profile-container span {
+    color: grey;
+    font-size: 20px;
+    margin: 15px;
+}
+.profile-container input {
+    background-color: rgb(240, 240, 240);
+    color: rgb(46, 46, 46);
+    margin: 15px;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid rgb(160, 160, 160);
+    font-size: 15px;
+}
+input:focus {
+    outline: none;
+}
+button{
+    padding:10px;
+    font-size:15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid grey;
+    background-color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 600px) {
+ 
+    .profile-container input {
+        width: 100%;
+    }
+    .profile-container {
+        padding: 10px;
+    }
+    }

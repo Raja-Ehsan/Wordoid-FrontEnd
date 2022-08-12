@@ -1,0 +1,125 @@
+
+.nav-container{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: 0px;
+    position: fixed;
+    flex-direction: column;
+    z-index: +1;
+}
+.nav2{
+    flex:3;
+    background-color: rgb(228, 228, 228);;
+    padding: 0px 15px 0px 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
+    color: rgb(66, 66, 66);
+}
+nav img {
+    width:40px;
+}
+nav{
+    flex:5;
+    background-color: rgb(239, 239, 239);;
+    padding: 0px 12px 0px 12px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(66, 66, 66);
+}
+.nav-title{
+    color: black;
+    font-weight: 400;
+}
+.portion{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.logo-text{
+    padding-left: 10px;
+    color: rgb(66, 66, 66);
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.options{
+    display: flex;
+}
+
+.opt{
+    cursor: pointer;
+    margin: 10px 25px 10px 25px;
+}
+.profileIcon{
+    font-size: 30px;
+    margin:10px;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+}
+.search{
+    margin: 10px;
+    height: 20px;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid rgb(66, 66, 66);
+    padding: 5px;
+    text-align: center;
+
+}
+.button{
+    margin: 9px 5px 0px 5px ;
+    margin-top: 9px;
+    cursor: pointer;
+}
+.button:hover{
+    color: rgb(128, 128, 128);
+}
+.opt:hover{
+    color: rgb(128, 128, 128);
+}
+.searchIcon{
+    font-size: 30px;
+    margin-top:16px;
+    cursor: pointer;
+}
+.searchBar{
+    width: 25%;
+    display: flex;
+}
+@media only screen and (max-width: 600px) {
+ 
+.searchBar{
+    width: 40%;
+}
+ .logo-text{
+    font-size: 16px;
+}
+.nav2{
+    display: none;
+}
+}
+@media only screen and (max-width: 900px) {
+ 
+    .searchBar{
+        width: 40%;
+    }
+    nav{
+        box-shadow: 2px 2px 5px black;
+    }
+    .button{
+        font-size: small;
+        margin-top: 13px;
+    }
+    .logo-text{
+        font-size: small
+    }
+    
+    }

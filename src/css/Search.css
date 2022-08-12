@@ -1,0 +1,26 @@
+.search-container {
+    margin-top: 140px;
+}
+.search-title{
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(227, 227, 227);
+    color: rgb(47, 47, 47);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .search-container {
+        margin-top: 120px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .search-container {
+        margin-top: 70px;
+    }
+
+}

@@ -1,0 +1,149 @@
+.add-article-container {
+    padding: 15px;
+    background-color: rgb(240, 240, 240);
+    margin: 3vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-article-container>div {
+    max-width: 90%;
+}
+
+/* .article-heading{
+    
+} */
+.add-article-container>div>input {
+    margin: auto;
+}
+
+.add-article-text {
+    margin-top: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.add-articleInfo {
+    max-width: 90%;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.add-article-text::first-letter {
+    float: left;
+    font-size: 60px;
+    line-height: 1;
+    font-weight: bolder;
+    margin-right: 9px;
+    color: rgb(46, 46, 46);
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: rgb(59, 59, 59) .05em .05em;
+}
+
+.upload-button {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(200, 200, 200);
+    padding: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.title-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.description-input>label {
+    font-size: 20px;
+    font-weight: bolder;
+    color: grey;
+}
+
+.description-text-input {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    height: 300px;
+    overflow: auto;
+    border-radius: 15px;
+    font-size: 20px;
+    resize: none;
+    border: none;
+    font-family:'sans-serif';
+}
+.description-text-input:focus {
+    outline: none;
+    border: 2px solid grey;    
+}
+
+.upload-button:hover {
+    background-color: rgb(208, 208, 208);
+}
+
+.image-container {
+    width: 80vw;
+    background-size: cover;
+    height: 40vw;
+    display: flex;
+    background-image: url(https://source.unsplash.com/1000x600?comics);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.edit-change-button {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(200, 200, 200);
+    padding: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+.image-container:hover .edit-change-button {
+    display: flex;
+    opacity: 0.7;
+}
+
+.input-title {
+    width: 50%;
+    height: 50px;
+    border-radius: 15px;
+    margin: 20px;
+    font-size: 20px;
+    border: none;
+    padding: 5px;
+}
+.input-title:focus {
+    border: 2px solid grey;    
+}
+
+@media only screen and (max-width: 900px) {
+    .input-title {
+        width: 60%;
+    }
+    .edit-change-button {
+        display: flex;
+        opacity: 0.7;
+        padding: 5px;
+        font-size: 13px;
+    }
+    .description-text-input {
+        width: 90%;
+    }
+}
